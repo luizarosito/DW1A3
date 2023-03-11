@@ -1,5 +1,13 @@
 body {
-    background-color: black;
-    color: azure;
+    background-color: rgb(244, 236, 251);
     font-size: 20;
+}
+
+h3 {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 10px;
 }
