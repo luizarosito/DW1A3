@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(206, 237, 237);
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+header{
+    margin-left: 50px;
+}
+
+section{
+    display: inline-block;
+    margin-left: 50px;
+}
