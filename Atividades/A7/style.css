@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(248, 243, 252);
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(231, 219, 242);
+}
+
+img{
+    width: 320px;
+}
+
+
+li{
+    display: inline-block;
+    margin: 5px;
+}
