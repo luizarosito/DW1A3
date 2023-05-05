@@ -104,10 +104,6 @@ header {
     text-align: center;
 }
 
-#logo {
-    color: #fff;
-    font-weight: 100;
-}
 
 #balance {
     margin-top: -8rem;
@@ -119,7 +115,7 @@ header {
 }
 
 .card {
-    background: white;
+    background: rgb(247, 236, 252);
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
 
