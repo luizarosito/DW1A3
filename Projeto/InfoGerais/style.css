@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+
+body{
+    background-color: rgb(231, 255, 241);
+    margin-top: 10px;
+    box-sizing: border-box ;
+    font-family: 'Triron', sans-serif;
+}
+
+#name {
+    margin-left: 10%;
+}
+
+.select-menu {
+    width: 180px;
+    margin:10px 70%;
+}
+
+.select-menu .select-btn{
+    display: flex;
+    height: 55px;
+    background:rgb(218, 249, 231);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgb(0, 0, 0.1);
+}
+
+
+
+.select-btn i {
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.select-menu.active .select-btn i{
+    transform: rotate(-180deg);
+}
+
+.select-menu.active  .options{
+    display: none;
+}
+
+.select-menu  .options{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background:rgb(218, 249, 231);
+    box-shadow: 0 0 3px rgb(0, 0, 0.1);
+
+}
+
+.options .option{
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background:rgb(218, 249, 231);
+}
+
+.options .option:hover{
+    background:rgb(206, 250, 224);
+}
+
+
+
+a{
+    color: black;
+    text-decoration: none;
+    /* font-size: 15px; */
+    margin-right: 10px;
+}
